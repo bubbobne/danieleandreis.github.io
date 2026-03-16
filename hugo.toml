@@ -1,0 +1,69 @@
+baseURL = "https://danieleandreis.eu/"
+languageCode = "en-us"
+title = "Daniele Andreis"
+theme = "PaperMod"
+
+[params]
+  defaultTheme = "auto"
+  ShowReadingTime = false
+  ShowShareButtons = false
+  ShowPostNavLinks = false
+  ShowBreadCrumbs = false
+  ShowCodeCopyButtons = true
+  disableSpecial1stPost = true
+  mainSections = ["posts"]
+
+  [params.profileMode]
+    enabled = true
+    title = "Daniele Andreis"
+    subtitle = "Hydrology, software, code, notes, and writing.\n\nI am interested in hydrology, programming, environmental data, and technical workflows. While my technical work focuses on hydrology and software, my blog also includes other interests such as hiking, photography, and personal reflections."
+    imageUrl = ""
+    imageTitle = "Daniele Andreis"
+    imageWidth = 140
+    imageHeight = 140
+
+    [[params.profileMode.buttons]]
+      name = "Blog"
+      url = "https://blog.danieleandreis.eu"
+
+    [[params.profileMode.buttons]]
+      name = "Code"
+      url = "https://code.danieleandreis.eu"
+
+    [[params.profileMode.buttons]]
+      name = "Wiki"
+      url = "https://wiki.danieleandreis.eu"
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/bubbobne"
+
+[[params.socialIcons]]
+  name = "bluesky"
+  url = "https://bsky.app/profile/bubbobne"
+
+[[params.socialIcons]]
+  name = "mastodon"
+  url = "https://mastodon.uno/@danieleandreis"
+
+[[params.socialIcons]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/daniele-andreis-64690235/"
+
+[[menu.main]]
+  identifier = "blog"
+  name = "Blog"
+  url = "https://blog.danieleandreis.eu"
+  weight = 1
+
+[[menu.main]]
+  identifier = "code"
+  name = "Code"
+  url = "https://code.danieleandreis.eu"
+  weight = 2
+
+[[menu.main]]
+  identifier = "wiki"
+  name = "Wiki"
+  url = "https://wiki.danieleandreis.eu"
+  weight = 3
