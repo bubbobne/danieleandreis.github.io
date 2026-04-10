@@ -1,0 +1,32 @@
+:root {
+    --theme: rgb(8, 10, 8);
+    --entry: rgb(12, 16, 12);
+    --primary: rgb(190, 255, 190);
+    --secondary: rgb(120, 170, 120);
+    --tertiary: rgb(30, 40, 30);
+    --content: rgb(170, 230, 170);
+    --code-bg: rgb(10, 20, 10);
+    --code-block-bg: rgb(10, 20, 10);
+    --border: rgb(40, 70, 40);
+}
+
+body {
+    letter-spacing: 0.01em;
+}
+
+.list, .single, .archive {
+    font-family: "IBM Plex Mono", "Fira Code", "Courier New", monospace;
+}
+
+.post-entry, .entry-header, .entry-content, .entry-footer, .toc, .breadcrumbs {
+    border-radius: 0;
+    box-shadow: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

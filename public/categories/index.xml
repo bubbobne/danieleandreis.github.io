@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Categories on Daniele Andreis</title>
+    <title>Categories on DA</title>
     <link>http://localhost:1313/categories/</link>
-    <description>Recent content in Categories on Daniele Andreis</description>
+    <description>Recent content in Categories on DA</description>
     <generator>Hugo</generator>
     <language>en-us</language>
+    <lastBuildDate>Fri, 10 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tips and Tricks</title>
+      <link>http://localhost:1313/categories/tips-and-tricks/</link>
+      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/tips-and-tricks/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

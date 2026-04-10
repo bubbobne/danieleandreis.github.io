@@ -1,13 +1,19 @@
 baseURL = "https://danieleandreis.eu/"
 languageCode = "en-us"
-title = "Daniele Andreis"
+title = "DA"
 theme = "PaperMod"
 
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+
 [params]
-  defaultTheme = "auto"
+  defaultTheme = "dark"
+  disableThemeToggle = true
   ShowReadingTime = false
   ShowShareButtons = false
-  ShowPostNavLinks = false
+  ShowPostNavLinks = true
   ShowBreadCrumbs = false
   ShowCodeCopyButtons = true
   disableSpecial1stPost = true
@@ -22,9 +28,10 @@ theme = "PaperMod"
     imageWidth = 140
     imageHeight = 140
 
+
     [[params.profileMode.buttons]]
       name = "Blog"
-      url = "https://blog.danieleandreis.eu"
+      url = "/blog/"
 
     [[params.profileMode.buttons]]
       name = "Code"
@@ -53,7 +60,7 @@ theme = "PaperMod"
 [[menu.main]]
   identifier = "blog"
   name = "Blog"
-  url = "https://blog.danieleandreis.eu"
+  url = "/blog/"
   weight = 1
 
 [[menu.main]]
