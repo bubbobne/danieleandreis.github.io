@@ -60,7 +60,7 @@ theme = "PaperMod"
 [[menu.main]]
   identifier = "blog"
   name = "Blog"
-  url = "/blog/"
+  pageRef = "/blog"
   weight = 1
 
 [[menu.main]]
