@@ -35,6 +35,17 @@ jobs:
       - name: Build with Hugo
         run: hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
 
+      - name: Debug generated files
+        run: |
+          echo "Root of public:"
+          ls -la public
+          echo
+          echo "Head of public/index.html:"
+          head -20 public/index.html || true
+          echo
+          echo "Search localhost:"
+          grep -R "localhost" public || true
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
