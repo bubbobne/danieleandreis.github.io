@@ -17,7 +17,7 @@ theme = "PaperMod"
   ShowBreadCrumbs = false
   ShowCodeCopyButtons = true
   disableSpecial1stPost = true
-  mainSections = ["posts"]
+  mainSections = ["blog"]
 
   [params.profileMode]
     enabled = true
