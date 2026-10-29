@@ -74,3 +74,9 @@ theme = "PaperMod"
   name = "Wiki"
   url = "https://wiki.danieleandreis.eu"
   weight = 3
+
+[[menu.main]]
+  identifier = "sports-log"
+  name = "Sports Log"
+  url = "/sports-log/"
+  weight = 4
