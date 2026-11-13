@@ -17,7 +17,7 @@ theme = "PaperMod"
   ShowBreadCrumbs = false
   ShowCodeCopyButtons = true
   disableSpecial1stPost = true
-  mainSections = ["blog"]
+  mainSections = ["tech"]
 
   [params.profileMode]
     enabled = true
@@ -58,20 +58,25 @@ theme = "PaperMod"
   url = "https://www.linkedin.com/in/daniele-andreis-64690235/"
 
 [[menu.main]]
-  identifier = "blog"
-  name = "Blog"
-   url = "https://danieleandreis.eu/blog"
-  weight = 1
+  identifier = "tech"
+  name = "Tech & Science"
+  url = "/tech/"
+  weight = 10
 
 [[menu.main]]
   identifier = "code"
   name = "Code"
   url = "https://code.danieleandreis.eu"
-  weight = 2
+  weight = 20
 
 [[menu.main]]
   identifier = "wiki"
   name = "Wiki"
   url = "https://wiki.danieleandreis.eu"
-  weight = 3
+  weight = 30
 
+[[menu.main]]
+  identifier = "life"
+  name = "Outdoor & Life"
+  url = "/life/"
+  weight = 40
