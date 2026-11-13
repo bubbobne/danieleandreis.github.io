@@ -63,17 +63,6 @@ theme = "PaperMod"
   url = "/tech/"
   weight = 10
 
-[[menu.main]]
-  identifier = "code"
-  name = "Code"
-  url = "https://code.danieleandreis.eu"
-  weight = 20
-
-[[menu.main]]
-  identifier = "wiki"
-  name = "Wiki"
-  url = "https://wiki.danieleandreis.eu"
-  weight = 30
 
 [[menu.main]]
   identifier = "life"
